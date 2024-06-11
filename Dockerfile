@@ -9,4 +9,4 @@ COPY . /shaikh_asma_ui_garden
  
 RUN npm install
  
-CMD ["npm", "run", "storybook"]
+CMD ["npm", "run", "storybook"]
