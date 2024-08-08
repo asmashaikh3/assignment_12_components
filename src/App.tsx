@@ -33,20 +33,41 @@ function App() {
 
       <section className="portfolio-section">
         <div className="portfolio-item">
-          <Card disabled={false}>
+          <Card 
+            title="CMS Project" 
+            description="A Content Management System project." 
+            imageUrl="https://via.placeholder.com/150" 
+            disabled={false}
+            visible={true}
+          >
             <Text className="portfolio-text">Project 1: CMS Project</Text>
           </Card>
         </div>
+
         <div className="portfolio-item">
-          <Card disabled={false}>
+          <Card 
+            title="Freelancing Portfolio Websites" 
+            description="Websites for showcasing freelance projects." 
+            imageUrl="https://via.placeholder.com/150" 
+            disabled={false}
+            visible={true}
+          >
             <Text className="portfolio-text">Project 2: Freelancing Portfolio Websites</Text>
           </Card>
         </div>
+
         <div className="portfolio-item">
-          <Card disabled={false}>
+          <Card 
+            title="Other Projects" 
+            description="Miscellaneous projects and experiments." 
+            imageUrl="https://via.placeholder.com/150" 
+            disabled={false}
+            visible={true}
+          >
             <Text className="portfolio-text">Project 3: Other Projects</Text>
           </Card>
         </div>
+
         <div className="portfolio-item">
           <Label className="portfolio-label">My Skills</Label>
           <Button disabled={false} className="portfolio-button">

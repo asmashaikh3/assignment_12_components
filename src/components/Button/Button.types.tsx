@@ -1,9 +1,15 @@
-
-// Button.types.ts
-export interface ButtonProps {
+interface ButtonProps {
   children: React.ReactNode;
+  className?: string;
   disabled?: boolean;
-  backgroundColor?: string;
-  visible?: boolean; // Add the visible property
 }
 
+const Button: React.FC<ButtonProps> = ({ children, className, disabled }) => {
+  return (
+    <button className={className} disabled={disabled}>
+      {children}
+    </button>
+  );
+};
+
+export default Button;
